@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.SearchBar input, .SearchBar select{
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: large;
+}
+.SearchBar input[type="submit" i] {
+  background: whitesmoke;
+  border-radius: 10px;
+  color: dodgerblue;
+  border-width: 1px;
+  border-color: lightgray;
+}
+
+.CatImg{
+  max-height: 500px;
+}
+
+.ImageList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.hidden {
+  display: none;
+}
+.LoginContainer {
+  margin-top:10px;
+}
+.Login{
+
+}
+.Logout{
+  float: right;
+  margin-right: 50px;
+}
+.ImageDiv {
+  position: relative;
+  margin: 10px;
+}
+
+.ImageDiv i{
+  position: absolute;
+  right: 0px;
+  color: blue;
+  font-size: 36px;
+}
+.ImageDiv i:hover{
+  color: orangered;
+  cursor: pointer;
+}
+i.Liked {
+  color: red;
+}
+
